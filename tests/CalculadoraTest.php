@@ -13,7 +13,7 @@ final class CalculadoraTest extends TestCase
     public function testMult()
     {
         $calc = new Calculadora(3,5);
-        $this->assertEquals(14, $calc->mult());    
+        $this->assertEquals(15, $calc->mult());    
     }
 
     public function testDiv()
